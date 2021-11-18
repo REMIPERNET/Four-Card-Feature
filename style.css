@@ -35,10 +35,11 @@ body{
     padding-top: 18px;
     padding-left: 18px;
     border-top: 4px solid;
+    position: relative;
 }
 .cards div img{
-    position: relative;
-    top: 30px; left: 210px;
+    position: absolute;
+    bottom: 30px; right: 30px;
 }
 h4{
     font-weight: 600;
@@ -86,8 +87,4 @@ p{
     }
     #calculator{
         grid-area: 2 / 3 / 4 / 4;
-    }
-    .cards div img{
-        position: relative;
-        top: 60px; left: 250px;
     }
